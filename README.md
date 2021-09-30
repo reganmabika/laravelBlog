@@ -1,2 +1,2 @@
 # laravelBlog
-It is a blog developed using Laravel in the backend
+It is a blog developed using Laravel
