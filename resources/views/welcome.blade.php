@@ -80,8 +80,20 @@
             @endif
 
             <div class="content">
+<<<<<<< Updated upstream
                 <div class="title m-b-md">
                     Laravel
+=======
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center pt-5">
+                            <h1 class="display-one mt-5">{{ config('app.name') }}</h1>
+                            <p>Hey welcome to my Awesome Blog</p>
+                            <br>
+                          
+                        </div>
+                    </div>
+>>>>>>> Stashed changes
                 </div>
 
                 <div class="links">
