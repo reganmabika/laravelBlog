@@ -80,20 +80,16 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center pt-5">
+                            <h1 class="display-one mt-5">{{ config('app.name') }}</h1>
+                            <p>Hey welcome to my Awesome Blog</p>
+                            <br>
+                            <a href="/blog" class="btn btn-outline-primary">Show Blog</a>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
         </div>
     </body>
 </html>
